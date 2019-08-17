@@ -17,6 +17,8 @@ function consume(arg1, arg2, cb) {
   * Create a function named greeting that accepts a first and last name and returns "Hello first-name last-name, nice to meet you!"
 */
 
+function add(consume, )
+
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
 // consume(2,2,add); // 4
@@ -28,8 +30,7 @@ function consume(arg1, arg2, cb) {
 
 // Explain in your own words why `nestedfunction()` can access the variable `internal`.
 
-// Explanation:
-
+// Explanation: The `nestedfunction() can access the variable `internal` because JavaScript looks for the variable in different scopes. First, it looks for it in its local scope and if it can't find it there, it will look at the scope above it. If it can't find it there, it will keep moving up the chain until it's in the gloabl scope where more than likely it will be. If it can't find it there, then that means the variable doesn't exist.
 
 const external = "I'm outside the function";
 
